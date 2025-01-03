@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "author": "Leland Richardson <leland.m.richardson@gmail.com>",
   "homepage": "https://github.com/react-native-maps/react-native-maps#readme",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -20,7 +20,17 @@
     "bootstrap": "yarn --cwd example && yarn && yarn bundle-install && yarn pod-install"
   },
   "files": [
-    ""
+    "lib",
+    "src",
+    "android",
+    "ios",
+    "react-native-google-maps.podspec",
+    "react-native-maps.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
   ],
   "repository": {
     "type": "git",

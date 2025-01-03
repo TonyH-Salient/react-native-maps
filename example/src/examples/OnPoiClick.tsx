@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View, Text, Dimensions} from 'react-native';
 
-import MapView, {Callout, Marker} from 'react-native-maps';
+import MapView, {Callout, Marker} from '@rakeshv1108/react-native-map';
 
 const {width, height} = Dimensions.get('window');
 

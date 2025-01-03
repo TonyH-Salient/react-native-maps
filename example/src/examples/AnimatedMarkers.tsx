@@ -8,7 +8,7 @@ import {
   Platform,
 } from 'react-native';
 
-import MapView, {Marker, AnimatedRegion} from 'react-native-maps';
+import MapView, {Marker, AnimatedRegion} from '@rakeshv1108/react-native-map';
 
 const screen = Dimensions.get('window');
 

@@ -6,7 +6,7 @@ import {
   Dimensions,
   TouchableOpacity,
 } from 'react-native';
-import MapView, {Marker} from 'react-native-maps';
+import MapView, {Marker} from '@rakeshv1108/react-native-map';
 
 const {width, height} = Dimensions.get('window');
 

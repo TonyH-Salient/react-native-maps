@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import {View, StyleSheet, TouchableOpacity, Text} from 'react-native';
 
-import MapView, {Marker} from 'react-native-maps';
+import MapView, {Marker} from '@rakeshv1108/react-native-map';
 // @ts-ignore
 import carImage from './assets/car.png';
 

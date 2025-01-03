@@ -4,7 +4,7 @@ import MapView, {
   MAP_TYPES,
   PROVIDER_DEFAULT,
   LocalTile,
-} from 'react-native-maps';
+} from '@rakeshv1108/react-native-map';
 
 const {width, height} = Dimensions.get('window');
 

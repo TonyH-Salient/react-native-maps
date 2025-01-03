@@ -5,7 +5,7 @@ import {
   Animated as AnimatedMap,
   AnimatedRegion,
   Marker,
-} from 'react-native-maps';
+} from '@rakeshv1108/react-native-map';
 import PanController from './PanController';
 import PriceMarker from './AnimatedPriceMarker';
 

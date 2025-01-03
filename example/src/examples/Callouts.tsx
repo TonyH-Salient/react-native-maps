@@ -7,7 +7,11 @@ import {
   TouchableOpacity,
   Alert,
 } from 'react-native';
-import MapView, {Marker, Callout, CalloutSubview} from 'react-native-maps';
+import MapView, {
+  Marker,
+  Callout,
+  CalloutSubview,
+} from '@rakeshv1108/react-native-map';
 import CustomCallout from './CustomCallout';
 
 const {width, height} = Dimensions.get('window');

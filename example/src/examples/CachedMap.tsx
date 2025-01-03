@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import MapView, {Marker} from 'react-native-maps';
+import MapView, {Marker} from '@rakeshv1108/react-native-map';
 import flagImg from './assets/flag-blue.png';
 
 const HORIZONTAL_PADDING = 12;

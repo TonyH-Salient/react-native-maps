@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, Dimensions, StyleSheet} from 'react-native';
 
-import MapView, {Marker, Callout} from 'react-native-maps';
+import MapView, {Marker, Callout} from '@rakeshv1108/react-native-map';
 import flagImg from './assets/flag-blue.png';
 
 const {width, height} = Dimensions.get('window');

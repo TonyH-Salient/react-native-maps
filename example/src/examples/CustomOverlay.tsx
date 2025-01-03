@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View, Dimensions} from 'react-native';
 
-import MapView from 'react-native-maps';
+import MapView from '@rakeshv1108/react-native-map';
 import XMarksTheSpot from './CustomOverlayXMarksTheSpot';
 
 const {width, height} = Dimensions.get('window');
